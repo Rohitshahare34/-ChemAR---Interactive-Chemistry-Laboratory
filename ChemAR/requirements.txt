@@ -1,0 +1,12 @@
+# ChemAR - minimal, portable requirements
+# Works on Windows/macOS/Linux with Python 3.8–3.12
+
+Flask>=2.3,<4
+Flask-CORS>=3.0,<5
+Jinja2>=3.1,<4
+Werkzeug>=2.3,<4
+requests>=2.31,<3
+
+# Optional (production servers) – do NOT install on Windows if not needed
+# gunicorn>=21.2,<22
+# waitress>=2.1,<3
